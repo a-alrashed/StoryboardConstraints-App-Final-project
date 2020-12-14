@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		878FCEBA2587A56A00CA29F5 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FCEB92587A56A00CA29F5 /* Content.swift */; };
 		87F6EB1A2587451700855A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F6EB192587451700855A05 /* AppDelegate.swift */; };
 		87F6EB1C2587451700855A05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F6EB1B2587451700855A05 /* SceneDelegate.swift */; };
-		87F6EB1E2587451700855A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F6EB1D2587451700855A05 /* ViewController.swift */; };
+		87F6EB1E2587451700855A05 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F6EB1D2587451700855A05 /* MainViewController.swift */; };
 		87F6EB212587451700855A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F6EB1F2587451700855A05 /* Main.storyboard */; };
 		87F6EB232587451900855A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F6EB222587451900855A05 /* Assets.xcassets */; };
 		87F6EB262587451900855A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F6EB242587451900855A05 /* LaunchScreen.storyboard */; };
+		87F6EB3025877C2700855A05 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F6EB2F25877C2700855A05 /* MainCollectionViewCell.swift */; };
+		87F6EB342587899700855A05 /* myExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F6EB332587899700855A05 /* myExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		878FCEB92587A56A00CA29F5 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		87F6EB162587451700855A05 /* StoryboardConstraints App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StoryboardConstraints App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F6EB192587451700855A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87F6EB1B2587451700855A05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		87F6EB1D2587451700855A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87F6EB1D2587451700855A05 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		87F6EB202587451700855A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87F6EB222587451900855A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87F6EB252587451900855A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87F6EB272587451900855A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F6EB2F25877C2700855A05 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		87F6EB332587899700855A05 /* myExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				87F6EB192587451700855A05 /* AppDelegate.swift */,
 				87F6EB1B2587451700855A05 /* SceneDelegate.swift */,
-				87F6EB1D2587451700855A05 /* ViewController.swift */,
+				87F6EB332587899700855A05 /* myExtensions.swift */,
+				87F6EB1D2587451700855A05 /* MainViewController.swift */,
+				87F6EB2F25877C2700855A05 /* MainCollectionViewCell.swift */,
+				878FCEB92587A56A00CA29F5 /* Content.swift */,
 				87F6EB1F2587451700855A05 /* Main.storyboard */,
 				87F6EB222587451900855A05 /* Assets.xcassets */,
 				87F6EB242587451900855A05 /* LaunchScreen.storyboard */,
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F6EB1E2587451700855A05 /* ViewController.swift in Sources */,
+				87F6EB1E2587451700855A05 /* MainViewController.swift in Sources */,
 				87F6EB1A2587451700855A05 /* AppDelegate.swift in Sources */,
+				87F6EB3025877C2700855A05 /* MainCollectionViewCell.swift in Sources */,
+				87F6EB342587899700855A05 /* myExtensions.swift in Sources */,
 				87F6EB1C2587451700855A05 /* SceneDelegate.swift in Sources */,
+				878FCEBA2587A56A00CA29F5 /* Content.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "StoryboardConstraints App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "StoryboardConstraints App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
